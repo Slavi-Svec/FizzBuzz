@@ -6,7 +6,11 @@ const sortedNumbers = numbers
 
 const timesTwo = numbers.map((num) => {
     return num * 2;
-})
+});
 
+
+const over100 = numbers.filter((num) => {
+    return num > 100;
+});
 
 
